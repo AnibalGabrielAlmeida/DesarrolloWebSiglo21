@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos Destacados - RetroGame Revival</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+  <link rel="icon" href="https://cdn.pixabay.com/photo/2023/01/02/20/49/controller-7692999_1280.png" type="image/x-icon">
+
+  <style>
+    /* Estilos */
+    body {
+      background-color: #133e7c; 
+    }
+
+    .nav-link {
+      color: #0abdc6 !important;
+      text-shadow: 0 0 14px #0abdc6;
+    }
+
+    .nav-link:hover {
+      color: #ea00d9 !important;
+      text-shadow: 0 0 22px #10e8f3;
+    }
+    .card-title{
+      color: #ea00d9;
+      text-shadow: 0 0 20px #ed3bfd;
+    }
+    .card-text:hover{
+      color: #ea00d9 !important;
+      text-shadow: 0 0 22px #10e8f3;
+    }
+    .card-price:hover{
+      text-shadow: 0 0 22px goldenrod !important;
+    }
+  </style>
+</head>
+
+<body>
+   <header style="background-color: #091833" class="text-start py-3 d-flex justify-content-between">
+    <h1 class="mt-1">
+      <a href="login.html" class="me-3 nav-link fs-4" style="color: #0abdc6">RetroGame Revival</a>
+    </h1>
+    <nav class="mt-auto">
+      <a href="form.html" class="text-decoration-none nav-link d-inline mt-1" style="color: #0abdc6">Encargar Juego Retro</a> |
+      <a href="card.html" class="text-decoration-none nav-link d-inline mt-1" style="color: #0abdc6">Productos Destacados</a> |
+      <a href="table.html" class="text-decoration-none nav-link d-inline mt-1" >Productos en Stock</a>
+    </nav>
+  </header>
+
+  <section class="container my-5">
+    <h2 class="text-center mb-5" style="color: #83f1f7; text-shadow: 0 0 10px #fff;">Productos Destacados</h2>
+    <div class="row">
+      
+      <div class="col-md-3">
+        <div class="card mb-3" style="max-width: 540px; background-color: #091833; color: #66dde4; text-shadow: 0 0 10px #fff;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://upload.wikimedia.org/wikipedia/en/c/c2/Final_Fantasy_VII_Box_Art.jpg" alt="Final Fantasy VII" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Final Fantasy VII</h5>
+                <p class="card-text">Categoría: RPG</p>
+                <p class="card-text">Plataforma: PSX</p>
+                <p class="card-text">Edición: Original 1997</p>
+                <p class="card-price" style="color: goldenrod; text-shadow: 0 0 12px goldenrod;">Precio: $8,000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3">
+        <div class="card mb-3" style="max-width: 540px; background-color: #091833; color: #66dde4; text-shadow: 0 0 10px #fff;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://i.ebayimg.com/thumbs/images/g/6NoAAOSwqGZkeHWI/s-l640.jpg" alt="Diablo" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Diablo</h5>
+                <p class="card-text">Categoría: RPG</p>
+                <p class="card-text">Plataforma: PC</p>
+                <p class="card-text">Edición: Original 1996</p>
+                <p class="card-price" style="color: goldenrod; text-shadow: 0 0 12px goldenrod;">Precio: $5,000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-md-3">
+        <div class="card mb-3" style="max-width: 540px; background-color: #091833; color: #66dde4; text-shadow: 0 0 10px #fff;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://i.3djuegos.com/juegos/6006/age_of_empires/fotos/ficha/age_of_empires-1720027.webp" alt="Age of empires" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Age of Empires</h5>
+                <p class="card-text">Categoría: RTS</p>
+                <p class="card-text">Plataforma: PC</p>
+                <p class="card-text">Edición: 1997</p>
+                <p class="card-price" style="color: goldenrod; text-shadow: 0 0 12px goldenrod;">Precio: $3,000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-md-3">
+        <div class="card mb-3" style="max-width: 540px; background-color: #091833; color: #66dde4; text-shadow: 0 0 10px #fff;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="data:image/jpeg;base64,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" 
+              alt="Metroid Prime" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Metroid Prime</h5>
+                <p class="card-text">Categoría: FPS</p>
+                <p class="card-text">Plataforma: GameCube</p>
+                <p class="card-text">Edición: 2002</p>
+                <p class="card-price" style="color: goldenrod; text-shadow: 0 0 12px goldenrod;">Precio: $12,000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-md-3">
+        <div class="card mb-3" style="max-width: 540px; background-color: #091833; color: #66dde4; text-shadow: 0 0 10px #fff;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://i.3djuegos.com/juegos/6802/super_mario_world/fotos/ficha/super_mario_world-1724681.webp" alt="Super Mario World" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Super Mario World</h5>
+                <p class="card-text">Categoría: Plataforma 2D</p>
+                <p class="card-text">Plataforma: SNES</p>
+                <p class="card-text">Edición: 1990</p>
+                <p class="card-price" style="color: goldenrod; text-shadow: 0 0 12px goldenrod;">Precio: $7,000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-md-3">
+        <div class="card mb-3" style="max-width: 540px; background-color: #091833; color: #66dde4; text-shadow: 0 0 10px #fff;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://static.wikia.nocookie.net/n64/images/e/e8/Star_Fox_64_NTSC-U.jpg/revision/latest/scale-to-width-down/1000?cb=20200904052333&path-prefix=es" 
+              alt="Star Fox 64" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Star Fox 64</h5>
+                <p class="card-text">Categoría: Simulador de combate espacial</p>
+                <p class="card-text">Plataforma: Nintendo 64</p>
+                <p class="card-text">Edición: 1997</p>
+                <p class="card-price" style="color: goldenrod; text-shadow: 0 0 12px goldenrod;">Precio: $10,000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-md-3">
+        <div class="card mb-3" style="max-width: 540px; background-color: #091833; color: #66dde4; text-shadow: 0 0 10px #fff;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://bitwares.net/wp-content/uploads/2022/12/Mega-Man-1-Cover-744x1024.jpg" alt="Mega Man" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Mega Man</h5>
+                <p class="card-text">Categoría: Plataforma 2D</p>
+                <p class="card-text">Plataforma: NES</p>
+                <p class="card-text">Edición: 1987</p>
+                <p class="card-price" style="color: goldenrod; text-shadow: 0 0 12px goldenrod;">Precio: $6,000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-md-3">
+        <div class="card mb-3" style="max-width: 540px; background-color: #091833; color: #66dde4; text-shadow: 0 0 10px #fff;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://i.pinimg.com/736x/4a/25/c2/4a25c27351487f4f62d2fe5841d9260d.jpg" alt="Sonic the Hedgehog" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Sonic the Hedgehog</h5>
+                <p class="card-text">Categoría: Plataforma 2D</p>
+                <p class="card-text">Plataforma: Sega Genesis</p>
+                <p class="card-text">Edición: 1991</p>
+                <p class="card-price" style="color: goldenrod; text-shadow: 0 0 12px goldenrod;">Precio: $5,000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  
+
+  <footer style="background-color: #091833; color: #0abdc6 " class="text-center py-3 fixed-bottom">
+    &copy; 2023 RetroGame Revival
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
